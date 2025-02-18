@@ -1,4 +1,10 @@
 import './App.css'
+import logo from "./assets/logo.webp"
+import profile from './assets/profile.jpg'
+import blackfriday from './assets/blackfriday.png'
+import calc from "./assets/calc.png"
+import space from './assets/space.png'
+import ntdl from './assets/ntdl.png'
 
 function App() {
 
@@ -8,7 +14,7 @@ function App() {
     <nav>
         <div className="nav-content">
             <div className="nav-left">
-                <img src="" alt="profile" className="profile-img" />
+                <img src={logo} alt="profile" className="profile-img" />
             </div>
             <div className="menu">
                 {/* <!-- <a href="#" className="active">Home</a> --> */}
@@ -57,7 +63,7 @@ function App() {
                 </div>
                 <div className="hero-image">
                     <div className="image-glow"></div>
-                    <img src="assets/profile-image.jpg" alt="Anzol Neupane" className="profile-hero-img" />
+                    <img src={profile} alt="Anzol Neupane" className="profile-hero-img" />
                 </div>
             </div>
         </section>
@@ -92,7 +98,7 @@ function App() {
             <div className="projects-grid">
                 <div className="project-card">
                     <div className="project-image">
-                        <img src="" alt="Black Friday Project" />
+                        <img src={blackfriday} alt="Black Friday Project" />
                         <div className="project-overlay">
                             <div className="project-buttons">
                                 <a href="https://black-friday-inky.vercel.app/" className="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
@@ -112,7 +118,7 @@ function App() {
 
                 <div className="project-card">
                     <div className="project-image">
-                        <img src="assets/ntdl.png" alt="Not To Do List" />
+                        <img src={ntdl} alt="Not To Do List" />
                         <div className="project-overlay">
                             <div className="project-buttons">
                                 <a href="https://not-to-do-list-iota.vercel.app/" className="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
@@ -133,7 +139,7 @@ function App() {
 
                 <div className="project-card">
                     <div className="project-image">
-                        <img src="assets/space-expo.png" alt="space-expo" />
+                        <img src={space} alt="space-expo" />
                         <div className="project-overlay">
                             <div className="project-buttons">
                                 <a href="https://space-exploration-hub.vercel.app/" className="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
@@ -153,7 +159,7 @@ function App() {
 
                 <div className="project-card">
                     <div className="project-image">
-                        <img src="assets/simple-calc.png" alt="Simple-Calc" />
+                        <img src={calc} alt="Simple-Calc" />
                         <div className="project-overlay">
                             <div className="project-buttons">
                                 <a href="https://simple-calc-ashy.vercel.app/" className="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
