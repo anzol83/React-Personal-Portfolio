@@ -51,7 +51,7 @@ function App() {
             <div className="hero-content">
                 <div className="hero-text">
                     <h1 className="name">Anzol Neupane</h1>
-                    <span id="typed-text"></span> < br />
+                    <span id="typed-text"></span> <br/>
                     <p className="hero-description">Creative developer crafting digital experiences that merge innovation with functionality.</p>
                     <div className="hero-buttons">
                         <a href="about.html" className="about-btn">About Me</a>
@@ -63,7 +63,7 @@ function App() {
                 </div>
                 <div className="hero-image">
                     <div className="image-glow"></div>
-                    <img src={profile} alt="Anzol Neupane" className="profile-hero-img" />
+                    <img src={profile} alt="Anzol Neupane" className="profile-hero-img"/>
                 </div>
             </div>
         </section>
@@ -84,9 +84,9 @@ function App() {
                 <div className="timeline-item">
                     <div className="timeline-dot"></div>
                     <div className="timeline-content">
-                        <div className="timeline-date">2021 - 2023</div>
-                        <h3>Full Stack Developer</h3>
-                        <h4>XYZ Company</h4>
+                        <div className="timeline-date">2022 - 2023</div>
+                        <h3>Junior Web Developer</h3>
+                        <h4>ZZZ Company</h4>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ function App() {
             <div className="projects-grid">
                 <div className="project-card">
                     <div className="project-image">
-                        <img src={blackfriday} alt="Black Friday Project" />
+                        <img src={blackfriday} alt="Black Friday Project"/>
                         <div className="project-overlay">
                             <div className="project-buttons">
                                 <a href="https://black-friday-inky.vercel.app/" className="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
@@ -118,7 +118,7 @@ function App() {
 
                 <div className="project-card">
                     <div className="project-image">
-                        <img src={ntdl} alt="Not To Do List" />
+                        <img src={ntdl} alt="Not To Do List"/>
                         <div className="project-overlay">
                             <div className="project-buttons">
                                 <a href="https://not-to-do-list-iota.vercel.app/" className="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
@@ -139,7 +139,7 @@ function App() {
 
                 <div className="project-card">
                     <div className="project-image">
-                        <img src={space} alt="space-expo" />
+                        <img src={space} alt="space-expo"/>
                         <div className="project-overlay">
                             <div className="project-buttons">
                                 <a href="https://space-exploration-hub.vercel.app/" className="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
@@ -159,7 +159,7 @@ function App() {
 
                 <div className="project-card">
                     <div className="project-image">
-                        <img src={calc} alt="Simple-Calc" />
+                        <img src={calc} alt="Simple-Calc"/>
                         <div className="project-overlay">
                             <div className="project-buttons">
                                 <a href="https://simple-calc-ashy.vercel.app/" className="project-btn" target="_blank" rel="noopener noreferrer">Live Preview</a>
@@ -230,13 +230,13 @@ function App() {
             <h2 className="section-title">Get In Touch</h2>
             <form id="contact-form" className="contact-form">
                 <div className="form-group">
-                    <input type="text" id="name" name="name" required placeholder="Your Name" />
+                    <input type="text" id="name" name="name" required placeholder="Your Name"/>
                 </div>
                 <div className="form-group">
-                    <input type="email" id="email" name="email" required placeholder="Your Email" />
+                    <input type="email" id="email" name="email" required placeholder="Your Email"/>
                 </div>
                 <div className="form-group">
-                    <input type="text" id="subject" name="subject" required placeholder="Subject" />
+                    <input type="text" id="subject" name="subject" required placeholder="Subject"/>
                 </div>
                 <div className="form-group">
                     <textarea id="message" name="message" required placeholder="Your Message"></textarea>
